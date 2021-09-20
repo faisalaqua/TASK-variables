@@ -12,7 +12,7 @@
 // Part 1 answer 👇🏻 ...
 
 let fullName = "Faisal Hashim"
-let yearOfBirth = "1994"
+let yearOfBirth = 1994
 let hobby = "Snowboarding"
 let funFact = "I can write backwards"
 let image = "https://assets.weforum.org/community/image/_d3HXBxBEPLd6VC_uDHN8d8uom51Mrj2bIsmExx7qvM.jpg"
