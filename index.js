@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = "Faisal Hashim"
+let yearOfBirth = "1994"
+let hobby = "Snowboarding"
+let funFact = "I can write backwards"
+let image = "https://assets.weforum.org/community/image/_d3HXBxBEPLd6VC_uDHN8d8uom51Mrj2bIsmExx7qvM.jpg"
 
 
 
@@ -29,9 +34,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+const fullNameString = `My name is ${fullName}`;
+const yearOfBirthString = `I am ${2021 - yearOfBirth}`
+const hobbyString = `My hobby is ${hobby}`
 
 
 
@@ -45,14 +50,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars = stars + 1
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars = stars - 1
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars = stars + 2
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars = stars - 2
 }
